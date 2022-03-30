@@ -30242,6 +30242,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C4" library="SparkFun-Capacitors" deviceset="10UF" device="-0603-6.3V-20%" value="10uF"/>
 <part name="GND25" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
+<part name="SUPPLY13" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -30444,8 +30445,8 @@ HIGH: AW-CU488 native USB</text>
 <instance part="SUPPLY5" gate="G$1" x="408.94" y="93.98" smashed="yes">
 <attribute name="VALUE" x="406.4" y="97.282" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND2" gate="1" x="406.4" y="48.26" smashed="yes">
-<attribute name="VALUE" x="403.86" y="45.72" size="1.778" layer="96" font="vector"/>
+<instance part="GND2" gate="1" x="396.24" y="48.26" smashed="yes">
+<attribute name="VALUE" x="393.7" y="45.72" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="C1" gate="G$1" x="101.6" y="226.06" smashed="yes">
 <attribute name="NAME" x="103.124" y="228.981" size="1.778" layer="95" font="vector"/>
@@ -30612,6 +30613,9 @@ HIGH: AW-CU488 native USB</text>
 <instance part="SUPPLY16" gate="G$1" x="45.72" y="144.78" smashed="yes">
 <attribute name="VALUE" x="44.704" y="148.336" size="1.778" layer="96" font="vector"/>
 </instance>
+<instance part="SUPPLY13" gate="G$1" x="121.92" y="132.08" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="125.73" y="135.382" size="1.778" layer="96" font="vector" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -30771,8 +30775,8 @@ HIGH: AW-CU488 native USB</text>
 <segment>
 <pinref part="J4" gate="G$1" pin="4"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="393.7" y1="83.82" x2="406.4" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="406.4" y1="83.82" x2="406.4" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="393.7" y1="83.82" x2="396.24" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="396.24" y1="83.82" x2="396.24" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
@@ -30972,6 +30976,12 @@ HIGH: AW-CU488 native USB</text>
 <pinref part="SUPPLY3" gate="G$1" pin="V_BATT"/>
 <wire x1="365.76" y1="91.44" x2="365.76" y2="96.52" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SUPPLY13" gate="G$1" pin="V_BATT"/>
+<wire x1="121.92" y1="132.08" x2="121.92" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="U$13" gate="G$1" pin="VBAT_MEAS"/>
+<wire x1="121.92" y1="124.46" x2="104.14" y2="124.46" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -30981,75 +30991,7 @@ HIGH: AW-CU488 native USB</text>
 <wire x1="353.06" y1="241.3" x2="353.06" y2="246.38" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="A0" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="5"/>
-<wire x1="393.7" y1="81.28" x2="396.24" y2="81.28" width="0.1524" layer="91"/>
-<label x="396.24" y="81.28" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="A1" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="6"/>
-<wire x1="393.7" y1="78.74" x2="396.24" y2="78.74" width="0.1524" layer="91"/>
-<label x="396.24" y="78.74" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="A2" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="7"/>
-<wire x1="393.7" y1="76.2" x2="396.24" y2="76.2" width="0.1524" layer="91"/>
-<label x="396.24" y="76.2" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="A3" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="8"/>
-<wire x1="393.7" y1="73.66" x2="396.24" y2="73.66" width="0.1524" layer="91"/>
-<label x="396.24" y="73.66" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="A4" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="9"/>
-<wire x1="393.7" y1="71.12" x2="396.24" y2="71.12" width="0.1524" layer="91"/>
-<label x="396.24" y="71.12" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="A5" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="10"/>
-<wire x1="393.7" y1="68.58" x2="396.24" y2="68.58" width="0.1524" layer="91"/>
-<label x="396.24" y="68.58" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="SCK" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="11"/>
-<wire x1="393.7" y1="66.04" x2="396.24" y2="66.04" width="0.1524" layer="91"/>
-<label x="396.24" y="66.04" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="COPI" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="12"/>
-<wire x1="393.7" y1="63.5" x2="396.24" y2="63.5" width="0.1524" layer="91"/>
-<label x="396.24" y="63.5" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="CIPO" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="13"/>
-<wire x1="393.7" y1="60.96" x2="396.24" y2="60.96" width="0.1524" layer="91"/>
-<label x="396.24" y="60.96" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
 <net name="SDA" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="12"/>
-<wire x1="368.3" y1="63.5" x2="365.76" y2="63.5" width="0.1524" layer="91"/>
-<label x="365.76" y="63.5" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="3"/>
 <wire x1="294.64" y1="149.86" x2="299.72" y2="149.86" width="0.1524" layer="91"/>
@@ -31058,28 +31000,9 @@ HIGH: AW-CU488 native USB</text>
 </net>
 <net name="SCL" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="11"/>
-<wire x1="368.3" y1="66.04" x2="365.76" y2="66.04" width="0.1524" layer="91"/>
-<label x="365.76" y="66.04" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J3" gate="G$1" pin="4"/>
 <wire x1="294.64" y1="152.4" x2="299.72" y2="152.4" width="0.1524" layer="91"/>
 <label x="299.72" y="152.4" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="12" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="5"/>
-<wire x1="368.3" y1="81.28" x2="365.76" y2="81.28" width="0.1524" layer="91"/>
-<label x="365.76" y="81.28" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="13" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="4"/>
-<wire x1="368.3" y1="83.82" x2="365.76" y2="83.82" width="0.1524" layer="91"/>
-<label x="365.76" y="83.82" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="EN" class="0">
@@ -31140,34 +31063,6 @@ HIGH: AW-CU488 native USB</text>
 <wire x1="63.5" y1="91.44" x2="60.96" y2="91.44" width="0.1524" layer="91"/>
 <label x="60.96" y="91.44" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U$13" gate="G$1" pin="PA25/HSDM"/>
-</segment>
-</net>
-<net name="6" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="9"/>
-<wire x1="368.3" y1="71.12" x2="365.76" y2="71.12" width="0.1524" layer="91"/>
-<label x="365.76" y="71.12" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="8" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="8"/>
-<wire x1="368.3" y1="73.66" x2="365.76" y2="73.66" width="0.1524" layer="91"/>
-<label x="365.76" y="73.66" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="10" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="7"/>
-<wire x1="368.3" y1="76.2" x2="365.76" y2="76.2" width="0.1524" layer="91"/>
-<label x="365.76" y="76.2" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="11" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="6"/>
-<wire x1="368.3" y1="78.74" x2="365.76" y2="78.74" width="0.1524" layer="91"/>
-<label x="365.76" y="78.74" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CP210X_D+" class="0">
@@ -31262,34 +31157,6 @@ HIGH: AW-CU488 native USB</text>
 <wire x1="182.88" y1="238.76" x2="180.34" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="180.34" y1="238.76" x2="180.34" y2="236.22" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="33/RX1" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="14"/>
-<wire x1="393.7" y1="58.42" x2="396.24" y2="58.42" width="0.1524" layer="91"/>
-<label x="396.24" y="58.42" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="34/TX1" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="15"/>
-<wire x1="393.7" y1="55.88" x2="396.24" y2="55.88" width="0.1524" layer="91"/>
-<label x="396.24" y="55.88" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="4" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="10"/>
-<wire x1="368.3" y1="68.58" x2="365.76" y2="68.58" width="0.1524" layer="91"/>
-<label x="365.76" y="68.58" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="3" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="16"/>
-<wire x1="393.7" y1="53.34" x2="396.24" y2="53.34" width="0.1524" layer="91"/>
-<label x="396.24" y="53.34" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="PA7/UART-LOG-TXD" class="0">
