@@ -524,10 +524,10 @@
 <pin name="VCC" x="-30.48" y="27.94" visible="pin" length="short"/>
 <pin name="GND*6" x="-30.48" y="-22.86" visible="pin" length="short"/>
 <pin name="PB2/ADC_5" x="30.48" y="15.24" visible="pin" length="short" rot="R180"/>
-<pin name="PA25/HSDM" x="-30.48" y="-10.16" visible="pin" length="short"/>
+<pin name="PA25/HSDM/LP_I2C_SCL" x="-30.48" y="-10.16" visible="pin" length="short"/>
 <pin name="CHIP_EN" x="30.48" y="27.94" visible="pin" length="short" rot="R180"/>
 <pin name="PB1/ADC_4" x="30.48" y="17.78" visible="pin" length="short" rot="R180"/>
-<pin name="PA26/HSDP" x="-30.48" y="-12.7" visible="pin" length="short"/>
+<pin name="PA26/HSDP/LP_I2C_SDA" x="-30.48" y="-12.7" visible="pin" length="short"/>
 <pin name="PA30" x="-30.48" y="-20.32" visible="pin" length="short"/>
 <pin name="PA15" x="-30.48" y="2.54" visible="pin" length="short"/>
 <pin name="PA27" x="-30.48" y="-15.24" visible="pin" length="short"/>
@@ -552,7 +552,7 @@
 <pin name="PA0" x="-30.48" y="22.86" visible="pin" length="short"/>
 <pin name="PA4" x="-30.48" y="17.78" visible="pin" length="short"/>
 <pin name="PA2" x="-30.48" y="20.32" visible="pin" length="short"/>
-<pin name="PA7/UART-LOG-TXD" x="-30.48" y="15.24" visible="pin" length="short"/>
+<pin name="PA7/UART-LOG-TXD/DWNLD" x="-30.48" y="15.24" visible="pin" length="short"/>
 <pin name="PA8/UART-LOG-RXD" x="-30.48" y="12.7" visible="pin" length="short"/>
 <pin name="NC" x="30.48" y="-22.86" visible="pin" length="short" direction="nc" rot="R180"/>
 <text x="-27.94" y="30.988" size="1.778" layer="95">&gt;Name</text>
@@ -581,13 +581,13 @@
 <connect gate="G$1" pin="PA18/SPI0_CLK" pad="A10"/>
 <connect gate="G$1" pin="PA19/SPI0_CS" pad="B10"/>
 <connect gate="G$1" pin="PA2" pad="K10"/>
-<connect gate="G$1" pin="PA25/HSDM" pad="A5"/>
-<connect gate="G$1" pin="PA26/HSDP" pad="A6"/>
+<connect gate="G$1" pin="PA25/HSDM/LP_I2C_SCL" pad="A5"/>
+<connect gate="G$1" pin="PA26/HSDP/LP_I2C_SDA" pad="A6"/>
 <connect gate="G$1" pin="PA27" pad="A9"/>
 <connect gate="G$1" pin="PA28/RREF" pad="A7"/>
 <connect gate="G$1" pin="PA30" pad="A8"/>
 <connect gate="G$1" pin="PA4" pad="K9"/>
-<connect gate="G$1" pin="PA7/UART-LOG-TXD" pad="K12"/>
+<connect gate="G$1" pin="PA7/UART-LOG-TXD/DWNLD" pad="K12"/>
 <connect gate="G$1" pin="PA8/UART-LOG-RXD" pad="K13"/>
 <connect gate="G$1" pin="PB1/ADC_4" pad="A3"/>
 <connect gate="G$1" pin="PB2/ADC_5" pad="A4"/>
