@@ -29553,7 +29553,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="PA0" x="-30.48" y="22.86" visible="pin" length="short"/>
 <pin name="PA4" x="-30.48" y="17.78" visible="pin" length="short"/>
 <pin name="PA2" x="-30.48" y="20.32" visible="pin" length="short"/>
-<pin name="PA7/UART-LOG-TXD/DWNLD" x="-30.48" y="15.24" visible="pin" length="short"/>
+<pin name="PA7/UART-LOG-TXD/!DWNLD!" x="-30.48" y="15.24" visible="pin" length="short"/>
 <pin name="PA8/UART-LOG-RXD" x="-30.48" y="12.7" visible="pin" length="short"/>
 <pin name="NC" x="30.48" y="-22.86" visible="pin" length="short" direction="nc" rot="R180"/>
 <text x="-27.94" y="30.988" size="1.778" layer="95">&gt;Name</text>
@@ -29588,7 +29588,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="PA28/RREF" pad="A7"/>
 <connect gate="G$1" pin="PA30" pad="A8"/>
 <connect gate="G$1" pin="PA4" pad="K9"/>
-<connect gate="G$1" pin="PA7/UART-LOG-TXD/DWNLD" pad="K12"/>
+<connect gate="G$1" pin="PA7/UART-LOG-TXD/!DWNLD!" pad="K12"/>
 <connect gate="G$1" pin="PA8/UART-LOG-RXD" pad="K13"/>
 <connect gate="G$1" pin="PB1/ADC_4" pad="A3"/>
 <connect gate="G$1" pin="PB2/ADC_5" pad="A4"/>
@@ -30896,7 +30896,7 @@ Closed (default): connected to GND</text>
 <segment>
 <wire x1="63.5" y1="114.3" x2="60.96" y2="114.3" width="0.1524" layer="91"/>
 <label x="60.96" y="114.3" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="PA7/UART-LOG-TXD/DWNLD"/>
+<pinref part="U$13" gate="G$1" pin="PA7/UART-LOG-TXD/!DWNLD!"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="RXD"/>
