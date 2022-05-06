@@ -29531,12 +29531,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="PA26/HSDP/LP_I2C_SDA" x="-30.48" y="-12.7" visible="pin" length="short"/>
 <pin name="PA30" x="-30.48" y="-20.32" visible="pin" length="short"/>
 <pin name="PA15" x="-30.48" y="2.54" visible="pin" length="short"/>
-<pin name="PA27" x="-30.48" y="-15.24" visible="pin" length="short"/>
+<pin name="PA27/SWD_DATA" x="-30.48" y="-15.24" visible="pin" length="short"/>
 <pin name="PA18/SPI0_CLK" x="-30.48" y="-5.08" visible="pin" length="short"/>
 <pin name="PA16/SPI0_PICO" x="-30.48" y="0" visible="pin" length="short"/>
 <pin name="PA14" x="-30.48" y="5.08" visible="pin" length="short"/>
 <pin name="PA12/LP_UART_TXD" x="-30.48" y="10.16" visible="pin" length="short"/>
-<pin name="PB3/ADC_6" x="30.48" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="PB3/SWD_CLK/ADC_6" x="30.48" y="12.7" visible="pin" length="short" rot="R180"/>
 <pin name="PB4/ADC_0" x="30.48" y="10.16" visible="pin" length="short" rot="R180"/>
 <pin name="PA19/SPI0_CS" x="-30.48" y="-7.62" visible="pin" length="short"/>
 <pin name="PA17/SPI0_POCI" x="-30.48" y="-2.54" visible="pin" length="short"/>
@@ -29584,7 +29584,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="PA2" pad="K10"/>
 <connect gate="G$1" pin="PA25/HSDM/LP_I2C_SCL" pad="A5"/>
 <connect gate="G$1" pin="PA26/HSDP/LP_I2C_SDA" pad="A6"/>
-<connect gate="G$1" pin="PA27" pad="A9"/>
+<connect gate="G$1" pin="PA27/SWD_DATA" pad="A9"/>
 <connect gate="G$1" pin="PA28/RREF" pad="A7"/>
 <connect gate="G$1" pin="PA30" pad="A8"/>
 <connect gate="G$1" pin="PA4" pad="K9"/>
@@ -29596,7 +29596,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="PB23" pad="K2"/>
 <connect gate="G$1" pin="PB26" pad="K5"/>
 <connect gate="G$1" pin="PB29" pad="K6"/>
-<connect gate="G$1" pin="PB3/ADC_6" pad="B1"/>
+<connect gate="G$1" pin="PB3/SWD_CLK/ADC_6" pad="B1"/>
 <connect gate="G$1" pin="PB31" pad="K7"/>
 <connect gate="G$1" pin="PB4/ADC_0" pad="B2"/>
 <connect gate="G$1" pin="PB5/ADC_1" pad="C1"/>
@@ -31007,7 +31007,7 @@ Closed (default): connected to GND</text>
 <segment>
 <wire x1="63.5" y1="83.82" x2="60.96" y2="83.82" width="0.1524" layer="91"/>
 <label x="60.96" y="83.82" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="PA27"/>
+<pinref part="U$13" gate="G$1" pin="PA27/SWD_DATA"/>
 </segment>
 <segment>
 <pinref part="J4" gate="J$1" pin="3"/>
@@ -31345,7 +31345,7 @@ Closed (default): connected to GND</text>
 </net>
 <net name="PB3/A6" class="0">
 <segment>
-<pinref part="U$13" gate="G$1" pin="PB3/ADC_6"/>
+<pinref part="U$13" gate="G$1" pin="PB3/SWD_CLK/ADC_6"/>
 <wire x1="124.46" y1="111.76" x2="127" y2="111.76" width="0.1524" layer="91"/>
 <label x="127" y="111.76" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
