@@ -17663,7 +17663,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="VALUE" x="0" y="66.04" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="U$13" library="temp" package="LGA150_AW-CU488" value="AW-CU488" x="11.43" y="57.15" smashed="yes" rot="R270">
-<attribute name="PROD_ID" value="" x="11.43" y="57.15" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="IC-16762" x="11.43" y="57.15" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
 <element name="R17" library="SparkFun-Resistors" package="0402-TIGHT" value="10k" x="16.6116" y="25.133303125" smashed="yes">
 <attribute name="NAME" x="16.6116" y="25.695303125" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>

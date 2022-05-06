@@ -29607,7 +29607,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="PROD_ID" value="IC-16762" constant="no"/>
 <attribute name="VALUE" value="AW-CU488" constant="no"/>
 </technology>
 </technologies>
