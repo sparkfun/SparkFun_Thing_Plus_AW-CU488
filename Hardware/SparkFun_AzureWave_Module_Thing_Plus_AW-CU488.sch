@@ -30036,7 +30036,7 @@ R_PROG=10k : I_CHG=100mA</text>
 <wire x1="259.08" y1="106.68" x2="259.08" y2="0" width="0.2032" layer="97" style="longdash"/>
 <text x="91.44" y="175.26" size="2.54" layer="94" font="vector" align="bottom-center">AzureWave AW-CU488 Module</text>
 <text x="363.22" y="175.26" size="2.54" layer="94" font="vector" align="bottom-center">Thing Plus Headers</text>
-<text x="421.894" y="9.398" size="2.54" layer="94" font="vector" align="top-left">v01</text>
+<text x="421.894" y="9.398" size="2.54" layer="94" font="vector" align="top-left">v10</text>
 <text x="381" y="99.06" size="2.54" layer="94" font="vector" align="bottom-center">QWIIC Connector</text>
 <text x="353.314" y="11.43" size="2.54" layer="94" font="vector">Pete Lewis</text>
 <text x="292.1" y="99.06" size="2.54" layer="94" font="vector" align="bottom-center">Power &amp; GPIO LEDs</text>
