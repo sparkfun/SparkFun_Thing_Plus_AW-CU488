@@ -41051,55 +41051,53 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="PA2" x="-30.48" y="20.32" visible="pin" length="short"/>
 <pin name="PA7/UART-LOG-TXD/!DWNLD!" x="-30.48" y="15.24" visible="pin" length="short"/>
 <pin name="PA8/UART-LOG-RXD" x="-30.48" y="12.7" visible="pin" length="short"/>
-<pin name="NC" x="30.48" y="-22.86" visible="pin" length="short" direction="nc" rot="R180"/>
-<text x="-27.94" y="30.988" size="1.778" layer="95">&gt;Name</text>
-<text x="-27.94" y="-27.94" size="1.778" layer="96">&gt;Value</text>
+<text x="-27.94" y="30.988" size="1.778" layer="95" font="vector">&gt;Name</text>
+<text x="-27.94" y="-27.94" size="1.778" layer="96" font="vector">&gt;Value</text>
 <pin name="PA28/RREF" x="-30.48" y="-17.78" visible="pin" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
 <deviceset name="AW-CU488">
 <gates>
-<gate name="G$1" symbol="AW-CU488" x="0" y="0"/>
+<gate name="U1" symbol="AW-CU488" x="0" y="0"/>
 </gates>
 <devices>
 <device name="LGA150" package="LGA150_AW-CU488">
 <connects>
-<connect gate="G$1" pin="CHIP_EN" pad="K11"/>
-<connect gate="G$1" pin="GND*6" pad="A1 A2 A14 A15 B14 B15 C3 C4 C5 C6 C7 C8 C9 C10 C11 C12 C13 C14 C15 D3 D4 D5 D6 D7 D8 D9 D10 D11 D12 D13 D14 D15 E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 F13 F14 F15 G1 G2 G3 G4 G5 G6 G7 G8 G9 G10 G11 G12 G13 G14 G15 H3 H4 H5 H6 H7 H8 H9 H10 H11 H12 H13 H14 H15 J14 J15 K3 K4 K14 K15"/>
-<connect gate="G$1" pin="NC" pad="B3 B4 B5 B6 B7 B8 B9 H1 H2 J1 J2 J3 J4 J5 J6 J7 J8 J9 J10 J11 J12 J13"/>
-<connect gate="G$1" pin="PA0" pad="K8"/>
-<connect gate="G$1" pin="PA12/LP_UART_TXD" pad="A13"/>
-<connect gate="G$1" pin="PA13/LP_UART_RXD" pad="B13"/>
-<connect gate="G$1" pin="PA14" pad="A12"/>
-<connect gate="G$1" pin="PA15" pad="B12"/>
-<connect gate="G$1" pin="PA16/SPI0_PICO" pad="A11"/>
-<connect gate="G$1" pin="PA17/SPI0_POCI" pad="B11"/>
-<connect gate="G$1" pin="PA18/SPI0_CLK" pad="A10"/>
-<connect gate="G$1" pin="PA19/SPI0_CS" pad="B10"/>
-<connect gate="G$1" pin="PA2" pad="K10"/>
-<connect gate="G$1" pin="PA25/HSDM/LP_I2C_SCL" pad="A5"/>
-<connect gate="G$1" pin="PA26/HSDP/LP_I2C_SDA" pad="A6"/>
-<connect gate="G$1" pin="PA27/SWD_DATA" pad="A9"/>
-<connect gate="G$1" pin="PA28/RREF" pad="A7"/>
-<connect gate="G$1" pin="PA30" pad="A8"/>
-<connect gate="G$1" pin="PA4" pad="K9"/>
-<connect gate="G$1" pin="PA7/UART-LOG-TXD/!DWNLD!" pad="K12"/>
-<connect gate="G$1" pin="PA8/UART-LOG-RXD" pad="K13"/>
-<connect gate="G$1" pin="PB1/ADC_4" pad="A3"/>
-<connect gate="G$1" pin="PB2/ADC_5" pad="A4"/>
-<connect gate="G$1" pin="PB22" pad="K1"/>
-<connect gate="G$1" pin="PB23" pad="K2"/>
-<connect gate="G$1" pin="PB26" pad="K5"/>
-<connect gate="G$1" pin="PB29" pad="K6"/>
-<connect gate="G$1" pin="PB3/SWD_CLK/ADC_6" pad="B1"/>
-<connect gate="G$1" pin="PB31" pad="K7"/>
-<connect gate="G$1" pin="PB4/ADC_0" pad="B2"/>
-<connect gate="G$1" pin="PB5/ADC_1" pad="C1"/>
-<connect gate="G$1" pin="PB6/ADC_2" pad="C2"/>
-<connect gate="G$1" pin="PB7/ADC_3" pad="D1"/>
-<connect gate="G$1" pin="VBAT_MEAS" pad="D2"/>
-<connect gate="G$1" pin="VCC" pad="F1"/>
+<connect gate="U1" pin="CHIP_EN" pad="K11"/>
+<connect gate="U1" pin="GND*6" pad="A1 A2 A14 A15 B14 B15 C3 C4 C5 C6 C7 C8 C9 C10 C11 C12 C13 C14 C15 D3 D4 D5 D6 D7 D8 D9 D10 D11 D12 D13 D14 D15 E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 F13 F14 F15 G1 G2 G3 G4 G5 G6 G7 G8 G9 G10 G11 G12 G13 G14 G15 H3 H4 H5 H6 H7 H8 H9 H10 H11 H12 H13 H14 H15 J14 J15 K3 K4 K14 K15"/>
+<connect gate="U1" pin="PA0" pad="K8"/>
+<connect gate="U1" pin="PA12/LP_UART_TXD" pad="A13"/>
+<connect gate="U1" pin="PA13/LP_UART_RXD" pad="B13"/>
+<connect gate="U1" pin="PA14" pad="A12"/>
+<connect gate="U1" pin="PA15" pad="B12"/>
+<connect gate="U1" pin="PA16/SPI0_PICO" pad="A11"/>
+<connect gate="U1" pin="PA17/SPI0_POCI" pad="B11"/>
+<connect gate="U1" pin="PA18/SPI0_CLK" pad="A10"/>
+<connect gate="U1" pin="PA19/SPI0_CS" pad="B10"/>
+<connect gate="U1" pin="PA2" pad="K10"/>
+<connect gate="U1" pin="PA25/HSDM/LP_I2C_SCL" pad="A5"/>
+<connect gate="U1" pin="PA26/HSDP/LP_I2C_SDA" pad="A6"/>
+<connect gate="U1" pin="PA27/SWD_DATA" pad="A9"/>
+<connect gate="U1" pin="PA28/RREF" pad="A7"/>
+<connect gate="U1" pin="PA30" pad="A8"/>
+<connect gate="U1" pin="PA4" pad="K9"/>
+<connect gate="U1" pin="PA7/UART-LOG-TXD/!DWNLD!" pad="K12"/>
+<connect gate="U1" pin="PA8/UART-LOG-RXD" pad="K13"/>
+<connect gate="U1" pin="PB1/ADC_4" pad="A3"/>
+<connect gate="U1" pin="PB2/ADC_5" pad="A4"/>
+<connect gate="U1" pin="PB22" pad="K1"/>
+<connect gate="U1" pin="PB23" pad="K2"/>
+<connect gate="U1" pin="PB26" pad="K5"/>
+<connect gate="U1" pin="PB29" pad="K6"/>
+<connect gate="U1" pin="PB3/SWD_CLK/ADC_6" pad="B1"/>
+<connect gate="U1" pin="PB31" pad="K7"/>
+<connect gate="U1" pin="PB4/ADC_0" pad="B2"/>
+<connect gate="U1" pin="PB5/ADC_1" pad="C1"/>
+<connect gate="U1" pin="PB6/ADC_2" pad="C2"/>
+<connect gate="U1" pin="PB7/ADC_3" pad="D1"/>
+<connect gate="U1" pin="VBAT_MEAS" pad="D2"/>
+<connect gate="U1" pin="VCC" pad="F1"/>
 </connects>
 <technologies>
 <technology name="">
@@ -41457,7 +41455,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY16" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="V_BATT" device=""/>
 <part name="J1" library="SparkFun-Boards" deviceset="THING_PLUS" device=""/>
-<part name="U$13" library="temp" deviceset="AW-CU488" device="LGA150" value="AW-CU488"/>
+<part name="U1" library="temp" deviceset="AW-CU488" device="LGA150" value="AW-CU488"/>
 <part name="R17" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402T-1/16W-1%" value="10k"/>
 <part name="R18" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402T-1/16W-1%" value="10k"/>
 <part name="Q2" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN_DUAL" device="-MBT3904DW1T1" value="MBT3904DW1T1"/>
@@ -41839,9 +41837,9 @@ to disable PWR LED</text>
 <attribute name="NAME" x="363.474" y="165.862" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="357.632" y="119.126" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="U$13" gate="G$1" x="93.98" y="99.06" smashed="yes">
-<attribute name="NAME" x="66.04" y="130.048" size="1.778" layer="95"/>
-<attribute name="VALUE" x="66.04" y="71.12" size="1.778" layer="96"/>
+<instance part="U1" gate="U1" x="93.98" y="99.06" smashed="yes">
+<attribute name="NAME" x="66.04" y="130.048" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="66.04" y="71.12" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="R17" gate="G$1" x="218.44" y="139.7" smashed="yes" rot="MR180">
 <attribute name="NAME" x="218.44" y="138.176" size="1.778" layer="95" font="vector" rot="MR180" align="bottom-center"/>
@@ -41989,7 +41987,7 @@ to disable PWR LED</text>
 <pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
 <wire x1="60.96" y1="129.54" x2="60.96" y2="127" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="127" x2="60.96" y2="127" width="0.1524" layer="91"/>
-<pinref part="U$13" gate="G$1" pin="VCC"/>
+<pinref part="U1" gate="U1" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="SUPPLY16" gate="G$1" pin="3.3V"/>
@@ -42100,7 +42098,7 @@ to disable PWR LED</text>
 <pinref part="GND18" gate="1" pin="GND"/>
 <wire x1="63.5" y1="76.2" x2="60.96" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="76.2" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U$13" gate="G$1" pin="GND*6"/>
+<pinref part="U1" gate="U1" pin="GND*6"/>
 </segment>
 <segment>
 <pinref part="R12" gate="R1" pin="1"/>
@@ -42288,7 +42286,7 @@ to disable PWR LED</text>
 <pinref part="SUPPLY13" gate="G$1" pin="V_BATT"/>
 <wire x1="142.24" y1="129.54" x2="142.24" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="121.92" x2="124.46" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="U$13" gate="G$1" pin="VBAT_MEAS"/>
+<pinref part="U1" gate="U1" pin="VBAT_MEAS"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -42315,7 +42313,7 @@ to disable PWR LED</text>
 <segment>
 <wire x1="63.5" y1="86.36" x2="60.96" y2="86.36" width="0.1524" layer="91"/>
 <label x="60.96" y="86.36" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="PA26/HSDP/LP_I2C_SDA"/>
+<pinref part="U1" gate="U1" pin="PA26/HSDP/LP_I2C_SDA"/>
 </segment>
 </net>
 <net name="PA25/SCL" class="0">
@@ -42332,7 +42330,7 @@ to disable PWR LED</text>
 <segment>
 <wire x1="63.5" y1="88.9" x2="60.96" y2="88.9" width="0.1524" layer="91"/>
 <label x="60.96" y="88.9" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="PA25/HSDM/LP_I2C_SCL"/>
+<pinref part="U1" gate="U1" pin="PA25/HSDM/LP_I2C_SCL"/>
 </segment>
 </net>
 <net name="EN" class="0">
@@ -42415,7 +42413,7 @@ to disable PWR LED</text>
 <segment>
 <wire x1="63.5" y1="114.3" x2="60.96" y2="114.3" width="0.1524" layer="91"/>
 <label x="60.96" y="114.3" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="PA7/UART-LOG-TXD/!DWNLD!"/>
+<pinref part="U1" gate="U1" pin="PA7/UART-LOG-TXD/!DWNLD!"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="RXD"/>
@@ -42447,7 +42445,7 @@ to disable PWR LED</text>
 <segment>
 <wire x1="63.5" y1="111.76" x2="60.96" y2="111.76" width="0.1524" layer="91"/>
 <label x="60.96" y="111.76" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="PA8/UART-LOG-RXD"/>
+<pinref part="U1" gate="U1" pin="PA8/UART-LOG-RXD"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="TXD"/>
@@ -42471,7 +42469,7 @@ to disable PWR LED</text>
 <segment>
 <wire x1="124.46" y1="127" x2="127" y2="127" width="0.1524" layer="91"/>
 <label x="127" y="127" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="CHIP_EN"/>
+<pinref part="U1" gate="U1" pin="CHIP_EN"/>
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="2"/>
@@ -42510,7 +42508,7 @@ to disable PWR LED</text>
 <segment>
 <wire x1="124.46" y1="101.6" x2="127" y2="101.6" width="0.1524" layer="91"/>
 <label x="127" y="101.6" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="PB7/ADC_3"/>
+<pinref part="U1" gate="U1" pin="PB7/ADC_3"/>
 </segment>
 <segment>
 <wire x1="378.46" y1="142.24" x2="381" y2="142.24" width="0.1524" layer="91"/>
@@ -42522,7 +42520,7 @@ to disable PWR LED</text>
 <segment>
 <wire x1="63.5" y1="83.82" x2="60.96" y2="83.82" width="0.1524" layer="91"/>
 <label x="60.96" y="83.82" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="PA27/SWD_DATA"/>
+<pinref part="U1" gate="U1" pin="PA27/SWD_DATA"/>
 </segment>
 <segment>
 <wire x1="162.56" y1="33.02" x2="157.48" y2="33.02" width="0.1524" layer="91"/>
@@ -42534,7 +42532,7 @@ to disable PWR LED</text>
 <segment>
 <wire x1="63.5" y1="78.74" x2="60.96" y2="78.74" width="0.1524" layer="91"/>
 <label x="60.96" y="78.74" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="PA30"/>
+<pinref part="U1" gate="U1" pin="PA30"/>
 </segment>
 <segment>
 <wire x1="353.06" y1="157.48" x2="350.52" y2="157.48" width="0.1524" layer="91"/>
@@ -42546,7 +42544,7 @@ to disable PWR LED</text>
 <segment>
 <wire x1="63.5" y1="119.38" x2="60.96" y2="119.38" width="0.1524" layer="91"/>
 <label x="60.96" y="119.38" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="PA2"/>
+<pinref part="U1" gate="U1" pin="PA2"/>
 </segment>
 <segment>
 <wire x1="162.56" y1="60.96" x2="160.02" y2="60.96" width="0.1524" layer="91"/>
@@ -42558,7 +42556,7 @@ to disable PWR LED</text>
 <segment>
 <wire x1="63.5" y1="121.92" x2="60.96" y2="121.92" width="0.1524" layer="91"/>
 <label x="60.96" y="121.92" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="PA0"/>
+<pinref part="U1" gate="U1" pin="PA0"/>
 </segment>
 <segment>
 <wire x1="162.56" y1="66.04" x2="160.02" y2="66.04" width="0.1524" layer="91"/>
@@ -42575,7 +42573,7 @@ to disable PWR LED</text>
 <segment>
 <wire x1="63.5" y1="93.98" x2="60.96" y2="93.98" width="0.1524" layer="91"/>
 <label x="60.96" y="93.98" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="PA18/SPI0_CLK"/>
+<pinref part="U1" gate="U1" pin="PA18/SPI0_CLK"/>
 </segment>
 </net>
 <net name="PB4/A0" class="0">
@@ -42587,14 +42585,14 @@ to disable PWR LED</text>
 <segment>
 <wire x1="124.46" y1="109.22" x2="127" y2="109.22" width="0.1524" layer="91"/>
 <label x="127" y="109.22" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="PB4/ADC_0"/>
+<pinref part="U1" gate="U1" pin="PB4/ADC_0"/>
 </segment>
 </net>
 <net name="PA4" class="0">
 <segment>
 <wire x1="63.5" y1="116.84" x2="60.96" y2="116.84" width="0.1524" layer="91"/>
 <label x="60.96" y="116.84" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="PA4"/>
+<pinref part="U1" gate="U1" pin="PA4"/>
 </segment>
 <segment>
 <wire x1="162.56" y1="63.5" x2="160.02" y2="63.5" width="0.1524" layer="91"/>
@@ -42611,14 +42609,14 @@ to disable PWR LED</text>
 <segment>
 <wire x1="63.5" y1="96.52" x2="60.96" y2="96.52" width="0.1524" layer="91"/>
 <label x="60.96" y="96.52" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="PA17/SPI0_POCI"/>
+<pinref part="U1" gate="U1" pin="PA17/SPI0_POCI"/>
 </segment>
 </net>
 <net name="PB1/A4" class="0">
 <segment>
 <wire x1="124.46" y1="116.84" x2="127" y2="116.84" width="0.1524" layer="91"/>
 <label x="127" y="116.84" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="PB1/ADC_4"/>
+<pinref part="U1" gate="U1" pin="PB1/ADC_4"/>
 </segment>
 <segment>
 <wire x1="378.46" y1="144.78" x2="381" y2="144.78" width="0.1524" layer="91"/>
@@ -42630,7 +42628,7 @@ to disable PWR LED</text>
 <segment>
 <wire x1="124.46" y1="114.3" x2="127" y2="114.3" width="0.1524" layer="91"/>
 <label x="127" y="114.3" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="PB2/ADC_5"/>
+<pinref part="U1" gate="U1" pin="PB2/ADC_5"/>
 </segment>
 <segment>
 <wire x1="378.46" y1="147.32" x2="381" y2="147.32" width="0.1524" layer="91"/>
@@ -42642,7 +42640,7 @@ to disable PWR LED</text>
 <segment>
 <wire x1="63.5" y1="99.06" x2="60.96" y2="99.06" width="0.1524" layer="91"/>
 <label x="60.96" y="99.06" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="PA16/SPI0_PICO"/>
+<pinref part="U1" gate="U1" pin="PA16/SPI0_PICO"/>
 </segment>
 <segment>
 <wire x1="378.46" y1="152.4" x2="381" y2="152.4" width="0.1524" layer="91"/>
@@ -42652,7 +42650,7 @@ to disable PWR LED</text>
 </net>
 <net name="PA19/CS" class="0">
 <segment>
-<pinref part="U$13" gate="G$1" pin="PA19/SPI0_CS"/>
+<pinref part="U1" gate="U1" pin="PA19/SPI0_CS"/>
 <wire x1="63.5" y1="91.44" x2="60.96" y2="91.44" width="0.1524" layer="91"/>
 <label x="60.96" y="91.44" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
@@ -42716,7 +42714,7 @@ to disable PWR LED</text>
 <segment>
 <wire x1="124.46" y1="106.68" x2="127" y2="106.68" width="0.1524" layer="91"/>
 <label x="127" y="106.68" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="PB5/ADC_1"/>
+<pinref part="U1" gate="U1" pin="PB5/ADC_1"/>
 </segment>
 <segment>
 <wire x1="378.46" y1="137.16" x2="381" y2="137.16" width="0.1524" layer="91"/>
@@ -42728,7 +42726,7 @@ to disable PWR LED</text>
 <segment>
 <wire x1="124.46" y1="104.14" x2="127" y2="104.14" width="0.1524" layer="91"/>
 <label x="127" y="104.14" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U$13" gate="G$1" pin="PB6/ADC_2"/>
+<pinref part="U1" gate="U1" pin="PB6/ADC_2"/>
 </segment>
 <segment>
 <wire x1="378.46" y1="139.7" x2="381" y2="139.7" width="0.1524" layer="91"/>
@@ -42738,7 +42736,7 @@ to disable PWR LED</text>
 </net>
 <net name="LP_UART_TXD" class="0">
 <segment>
-<pinref part="U$13" gate="G$1" pin="PA12/LP_UART_TXD"/>
+<pinref part="U1" gate="U1" pin="PA12/LP_UART_TXD"/>
 <wire x1="63.5" y1="109.22" x2="60.96" y2="109.22" width="0.1524" layer="91"/>
 <label x="60.96" y="109.22" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
@@ -42750,7 +42748,7 @@ to disable PWR LED</text>
 </net>
 <net name="LP_UART_RXD" class="0">
 <segment>
-<pinref part="U$13" gate="G$1" pin="PA13/LP_UART_RXD"/>
+<pinref part="U1" gate="U1" pin="PA13/LP_UART_RXD"/>
 <wire x1="63.5" y1="106.68" x2="60.96" y2="106.68" width="0.1524" layer="91"/>
 <label x="60.96" y="106.68" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
@@ -42762,7 +42760,7 @@ to disable PWR LED</text>
 </net>
 <net name="PA14" class="0">
 <segment>
-<pinref part="U$13" gate="G$1" pin="PA14"/>
+<pinref part="U1" gate="U1" pin="PA14"/>
 <wire x1="63.5" y1="104.14" x2="60.96" y2="104.14" width="0.1524" layer="91"/>
 <label x="60.96" y="104.14" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
@@ -42774,7 +42772,7 @@ to disable PWR LED</text>
 </net>
 <net name="PA15" class="0">
 <segment>
-<pinref part="U$13" gate="G$1" pin="PA15"/>
+<pinref part="U1" gate="U1" pin="PA15"/>
 <wire x1="63.5" y1="101.6" x2="60.96" y2="101.6" width="0.1524" layer="91"/>
 <label x="60.96" y="101.6" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
@@ -42786,7 +42784,7 @@ to disable PWR LED</text>
 </net>
 <net name="PB22" class="0">
 <segment>
-<pinref part="U$13" gate="G$1" pin="PB22"/>
+<pinref part="U1" gate="U1" pin="PB22"/>
 <wire x1="124.46" y1="99.06" x2="127" y2="99.06" width="0.1524" layer="91"/>
 <label x="127" y="99.06" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
@@ -42798,7 +42796,7 @@ to disable PWR LED</text>
 </net>
 <net name="PB23" class="0">
 <segment>
-<pinref part="U$13" gate="G$1" pin="PB23"/>
+<pinref part="U1" gate="U1" pin="PB23"/>
 <wire x1="124.46" y1="96.52" x2="127" y2="96.52" width="0.1524" layer="91"/>
 <label x="127" y="96.52" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
@@ -42810,7 +42808,7 @@ to disable PWR LED</text>
 </net>
 <net name="PB26" class="0">
 <segment>
-<pinref part="U$13" gate="G$1" pin="PB26"/>
+<pinref part="U1" gate="U1" pin="PB26"/>
 <wire x1="124.46" y1="93.98" x2="127" y2="93.98" width="0.1524" layer="91"/>
 <label x="127" y="93.98" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
@@ -42822,7 +42820,7 @@ to disable PWR LED</text>
 </net>
 <net name="PB29" class="0">
 <segment>
-<pinref part="U$13" gate="G$1" pin="PB29"/>
+<pinref part="U1" gate="U1" pin="PB29"/>
 <wire x1="124.46" y1="91.44" x2="127" y2="91.44" width="0.1524" layer="91"/>
 <label x="127" y="91.44" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
@@ -42839,7 +42837,7 @@ to disable PWR LED</text>
 </net>
 <net name="PB31" class="0">
 <segment>
-<pinref part="U$13" gate="G$1" pin="PB31"/>
+<pinref part="U1" gate="U1" pin="PB31"/>
 <wire x1="124.46" y1="88.9" x2="127" y2="88.9" width="0.1524" layer="91"/>
 <label x="127" y="88.9" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
@@ -42860,7 +42858,7 @@ to disable PWR LED</text>
 </net>
 <net name="PB3/A6" class="0">
 <segment>
-<pinref part="U$13" gate="G$1" pin="PB3/SWD_CLK/ADC_6"/>
+<pinref part="U1" gate="U1" pin="PB3/SWD_CLK/ADC_6"/>
 <wire x1="124.46" y1="111.76" x2="127" y2="111.76" width="0.1524" layer="91"/>
 <label x="127" y="111.76" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
@@ -42919,7 +42917,7 @@ to disable PWR LED</text>
 </net>
 <net name="PA28" class="0">
 <segment>
-<pinref part="U$13" gate="G$1" pin="PA28/RREF"/>
+<pinref part="U1" gate="U1" pin="PA28/RREF"/>
 <wire x1="63.5" y1="81.28" x2="60.96" y2="81.28" width="0.1524" layer="91"/>
 <label x="60.96" y="81.28" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
