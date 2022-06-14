@@ -80,7 +80,7 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
-<layer number="100" name="Muster" color="7" fill="1" visible="no" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="no"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="no"/>
 <layer number="103" name="tMap" color="7" fill="1" visible="no" active="no"/>
@@ -15041,7 +15041,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CAP-14240" x="-37.934896875" y="-7.62" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="11.577315625" y="29.6926" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-MINI" value="OSHW-LOGOMINI" x="11.43" y="10.16" smashed="yes" rot="MR0"/>
+<element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-MINI" value="OSHW-LOGOMINI" x="11.43" y="10.0431625" smashed="yes" rot="MR0"/>
 <element name="J3" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RA" x="5.08" y="9.398" smashed="yes" rot="R270">
 <attribute name="NAME" x="2.921" y="10.795" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="PROD_ID" value="CONN-13694" x="5.08" y="9.398" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -15455,8 +15455,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="J1" pad="25"/>
 <via x="17.752059375" y="1.25221875" extent="1-16" drill="0.254"/>
 <via x="21.562059375" y="5.06221875" extent="1-16" drill="0.254"/>
-<via x="13.942059375" y="1.25221875" extent="1-16" drill="0.254"/>
-<via x="8.862059375" y="1.25221875" extent="1-16" drill="0.254"/>
 <via x="5.052059375" y="1.25221875" extent="1-16" drill="0.254"/>
 <via x="1.242059375" y="5.06221875" extent="1-16" drill="0.254"/>
 <via x="1.2725375" y="15.892778125" extent="1-16" drill="0.254"/>
@@ -16577,6 +16575,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <approved hash="19,16,8024863bbc3aa024"/>
 <approved hash="19,16,add26006bc3ea9d2"/>
 <approved hash="23,15,560efb8efade575e"/>
+<approved hash="19,16,6c005a70c454d408"/>
+<approved hash="19,16,980aa55d8b8c9f3a"/>
 </errors>
 </board>
 </drawing>
