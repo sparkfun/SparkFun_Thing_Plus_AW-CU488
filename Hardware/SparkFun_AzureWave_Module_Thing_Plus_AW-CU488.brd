@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -80,7 +80,7 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
-<layer number="100" name="Muster" color="7" fill="1" visible="no" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="no"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="no"/>
 <layer number="103" name="tMap" color="7" fill="1" visible="no" active="no"/>
@@ -15616,7 +15616,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U3" library="SparkFun-IC-Power" package="SOT23-5" value="XC6222B331MR-G" x="5.8674" y="24.7396" smashed="yes" rot="R270">
 <attribute name="IOUT" value="700mA" x="5.8674" y="24.7396" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="8.0264" y="25.6286" size="0.4064" layer="25" rot="R270"/>
-<attribute name="PROD_ID" value="VREG-12457" x="-30.9626" y="60.2996" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="VREG-16775" x="-30.9626" y="60.2996" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VOUT" value="3.3V" x="5.8674" y="24.7396" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="Q1" library="SparkFun-DiscreteSemi" package="SOT23-3" value="3.1A/30V/105mΩ" x="12.065" y="20.955" smashed="yes" rot="R90">
@@ -15660,10 +15660,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="DIO-08575" x="5.27811875" y="27.559" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="5.27811875" y="26.924" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R4" library="SparkFun-Resistors" package="0402-TIGHT" value="1k" x="3.746503125" y="30.065978125" smashed="yes" rot="R270">
+<element name="R4" library="SparkFun-Resistors" package="0402-TIGHT" value="4.7k" x="3.746503125" y="30.065978125" smashed="yes" rot="R270">
 <attribute name="NAME" x="4.508503125" y="30.065978125" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-14342" x="3.746503125" y="30.065978125" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="VALUE" x="3.284221875" y="30.121859375" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="PROD_ID" value="RES-15343" x="3.746503125" y="30.065978125" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="VALUE" value="4.7k" x="3.284221875" y="30.121859375" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="R8" library="SparkFun-Resistors" package="0402-TIGHT" value="100k" x="3.1242" y="24.511" smashed="yes" rot="R270">
 <attribute name="NAME" x="3.8862" y="24.511" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
