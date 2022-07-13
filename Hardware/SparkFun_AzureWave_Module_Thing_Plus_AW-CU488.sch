@@ -41033,13 +41033,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="PA14" x="-30.48" y="5.08" visible="pin" length="short"/>
 <pin name="PA12/LP_UART_TXD" x="-30.48" y="10.16" visible="pin" length="short"/>
 <pin name="PB3/SWD_CLK/ADC_6" x="30.48" y="12.7" visible="pin" length="short" rot="R180"/>
-<pin name="PB4/ADC_0" x="30.48" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="PB4/SPI1_PICO/ADC_0" x="30.48" y="10.16" visible="pin" length="short" rot="R180"/>
 <pin name="PA19/SPI0_CS" x="-30.48" y="-7.62" visible="pin" length="short"/>
 <pin name="PA17/SPI0_POCI" x="-30.48" y="-2.54" visible="pin" length="short"/>
 <pin name="PA13/LP_UART_RXD" x="-30.48" y="7.62" visible="pin" length="short"/>
-<pin name="PB5/ADC_1" x="30.48" y="7.62" visible="pin" length="short" rot="R180"/>
-<pin name="PB6/ADC_2" x="30.48" y="5.08" visible="pin" length="short" rot="R180"/>
-<pin name="PB7/ADC_3" x="30.48" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="PB5/SPI1_POCI/ADC_1" x="30.48" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="PB6/SPI1_CLK/ADC_2" x="30.48" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="PB7/SPI1_CS/ADC_3" x="30.48" y="2.54" visible="pin" length="short" rot="R180"/>
 <pin name="VBAT_MEAS" x="30.48" y="22.86" visible="pin" length="short" rot="R180"/>
 <pin name="PB22" x="30.48" y="0" visible="pin" length="short" rot="R180"/>
 <pin name="PB23" x="30.48" y="-2.54" visible="pin" length="short" rot="R180"/>
@@ -41092,10 +41092,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="U1" pin="PB29" pad="K6"/>
 <connect gate="U1" pin="PB3/SWD_CLK/ADC_6" pad="B1"/>
 <connect gate="U1" pin="PB31" pad="K7"/>
-<connect gate="U1" pin="PB4/ADC_0" pad="B2"/>
-<connect gate="U1" pin="PB5/ADC_1" pad="C1"/>
-<connect gate="U1" pin="PB6/ADC_2" pad="C2"/>
-<connect gate="U1" pin="PB7/ADC_3" pad="D1"/>
+<connect gate="U1" pin="PB4/SPI1_PICO/ADC_0" pad="B2"/>
+<connect gate="U1" pin="PB5/SPI1_POCI/ADC_1" pad="C1"/>
+<connect gate="U1" pin="PB6/SPI1_CLK/ADC_2" pad="C2"/>
+<connect gate="U1" pin="PB7/SPI1_CS/ADC_3" pad="D1"/>
 <connect gate="U1" pin="VBAT_MEAS" pad="D2"/>
 <connect gate="U1" pin="VCC" pad="F1"/>
 </connects>
@@ -42719,7 +42719,7 @@ Pin Mapping</text>
 <segment>
 <wire x1="101.6" y1="106.68" x2="104.14" y2="106.68" width="0.1524" layer="91"/>
 <label x="104.14" y="106.68" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U1" gate="U1" pin="PB7/ADC_3"/>
+<pinref part="U1" gate="U1" pin="PB7/SPI1_CS/ADC_3"/>
 </segment>
 <segment>
 <wire x1="378.46" y1="142.24" x2="381" y2="142.24" width="0.1524" layer="91"/>
@@ -42796,7 +42796,7 @@ Pin Mapping</text>
 <segment>
 <wire x1="101.6" y1="114.3" x2="104.14" y2="114.3" width="0.1524" layer="91"/>
 <label x="104.14" y="114.3" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U1" gate="U1" pin="PB4/ADC_0"/>
+<pinref part="U1" gate="U1" pin="PB4/SPI1_PICO/ADC_0"/>
 </segment>
 </net>
 <net name="PA4" class="0">
@@ -42925,7 +42925,7 @@ Pin Mapping</text>
 <segment>
 <wire x1="101.6" y1="111.76" x2="104.14" y2="111.76" width="0.1524" layer="91"/>
 <label x="104.14" y="111.76" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U1" gate="U1" pin="PB5/ADC_1"/>
+<pinref part="U1" gate="U1" pin="PB5/SPI1_POCI/ADC_1"/>
 </segment>
 <segment>
 <wire x1="378.46" y1="137.16" x2="381" y2="137.16" width="0.1524" layer="91"/>
@@ -42937,7 +42937,7 @@ Pin Mapping</text>
 <segment>
 <wire x1="101.6" y1="109.22" x2="104.14" y2="109.22" width="0.1524" layer="91"/>
 <label x="104.14" y="109.22" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U1" gate="U1" pin="PB6/ADC_2"/>
+<pinref part="U1" gate="U1" pin="PB6/SPI1_CLK/ADC_2"/>
 </segment>
 <segment>
 <wire x1="378.46" y1="139.7" x2="381" y2="139.7" width="0.1524" layer="91"/>

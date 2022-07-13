@@ -1436,13 +1436,13 @@
 <pin name="PA14" x="-30.48" y="5.08" visible="pin" length="short"/>
 <pin name="PA12/LP_UART_TXD" x="-30.48" y="10.16" visible="pin" length="short"/>
 <pin name="PB3/SWD_CLK/ADC_6" x="30.48" y="12.7" visible="pin" length="short" rot="R180"/>
-<pin name="PB4/ADC_0" x="30.48" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="PB4/SPI1_PICO/ADC_0" x="30.48" y="10.16" visible="pin" length="short" rot="R180"/>
 <pin name="PA19/SPI0_CS" x="-30.48" y="-7.62" visible="pin" length="short"/>
 <pin name="PA17/SPI0_POCI" x="-30.48" y="-2.54" visible="pin" length="short"/>
 <pin name="PA13/LP_UART_RXD" x="-30.48" y="7.62" visible="pin" length="short"/>
-<pin name="PB5/ADC_1" x="30.48" y="7.62" visible="pin" length="short" rot="R180"/>
-<pin name="PB6/ADC_2" x="30.48" y="5.08" visible="pin" length="short" rot="R180"/>
-<pin name="PB7/ADC_3" x="30.48" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="PB5/SPI1_POCI/ADC_1" x="30.48" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="PB6/SPI1_CLK/ADC_2" x="30.48" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="PB7/SPI1_CS/ADC_3" x="30.48" y="2.54" visible="pin" length="short" rot="R180"/>
 <pin name="VBAT_MEAS" x="30.48" y="22.86" visible="pin" length="short" rot="R180"/>
 <pin name="PB22" x="30.48" y="0" visible="pin" length="short" rot="R180"/>
 <pin name="PB23" x="30.48" y="-2.54" visible="pin" length="short" rot="R180"/>
@@ -1495,10 +1495,10 @@
 <connect gate="U1" pin="PB29" pad="K6"/>
 <connect gate="U1" pin="PB3/SWD_CLK/ADC_6" pad="B1"/>
 <connect gate="U1" pin="PB31" pad="K7"/>
-<connect gate="U1" pin="PB4/ADC_0" pad="B2"/>
-<connect gate="U1" pin="PB5/ADC_1" pad="C1"/>
-<connect gate="U1" pin="PB6/ADC_2" pad="C2"/>
-<connect gate="U1" pin="PB7/ADC_3" pad="D1"/>
+<connect gate="U1" pin="PB4/SPI1_PICO/ADC_0" pad="B2"/>
+<connect gate="U1" pin="PB5/SPI1_POCI/ADC_1" pad="C1"/>
+<connect gate="U1" pin="PB6/SPI1_CLK/ADC_2" pad="C2"/>
+<connect gate="U1" pin="PB7/SPI1_CS/ADC_3" pad="D1"/>
 <connect gate="U1" pin="VBAT_MEAS" pad="D2"/>
 <connect gate="U1" pin="VCC" pad="F1"/>
 </connects>
