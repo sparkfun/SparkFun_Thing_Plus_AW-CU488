@@ -41044,11 +41044,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="PB22" x="30.48" y="0" visible="pin" length="short" rot="R180"/>
 <pin name="PB23" x="30.48" y="-2.54" visible="pin" length="short" rot="R180"/>
 <pin name="PB26" x="30.48" y="-5.08" visible="pin" length="short" rot="R180"/>
-<pin name="PB29" x="30.48" y="-7.62" visible="pin" length="short" rot="R180"/>
-<pin name="PB31" x="30.48" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="PB29/AOUTP_R" x="30.48" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="PB31/AOUTP_L" x="30.48" y="-10.16" visible="pin" length="short" rot="R180"/>
 <pin name="PA0" x="-30.48" y="22.86" visible="pin" length="short"/>
-<pin name="PA4" x="-30.48" y="17.78" visible="pin" length="short"/>
-<pin name="PA2" x="-30.48" y="20.32" visible="pin" length="short"/>
+<pin name="PA4/MIC1_P" x="-30.48" y="17.78" visible="pin" length="short"/>
+<pin name="PA2/MIC2_P" x="-30.48" y="20.32" visible="pin" length="short"/>
 <pin name="PA7/UART-LOG-TXD/!DWNLD!" x="-30.48" y="15.24" visible="pin" length="short"/>
 <pin name="PA8/UART-LOG-RXD" x="-30.48" y="12.7" visible="pin" length="short"/>
 <text x="-27.94" y="30.988" size="1.778" layer="95" font="vector">&gt;Name</text>
@@ -41075,13 +41075,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="U1" pin="PA17/SPI0_POCI" pad="B11"/>
 <connect gate="U1" pin="PA18/SPI0_CLK" pad="A10"/>
 <connect gate="U1" pin="PA19/SPI0_CS" pad="B10"/>
-<connect gate="U1" pin="PA2" pad="K10"/>
+<connect gate="U1" pin="PA2/MIC2_P" pad="K10"/>
 <connect gate="U1" pin="PA25/HSDM/LP_I2C_SCL" pad="A5"/>
 <connect gate="U1" pin="PA26/HSDP/LP_I2C_SDA" pad="A6"/>
 <connect gate="U1" pin="PA27/SWD_DATA" pad="A9"/>
 <connect gate="U1" pin="PA28/RREF" pad="A7"/>
 <connect gate="U1" pin="PA30" pad="A8"/>
-<connect gate="U1" pin="PA4" pad="K9"/>
+<connect gate="U1" pin="PA4/MIC1_P" pad="K9"/>
 <connect gate="U1" pin="PA7/UART-LOG-TXD/!DWNLD!" pad="K12"/>
 <connect gate="U1" pin="PA8/UART-LOG-RXD" pad="K13"/>
 <connect gate="U1" pin="PB1/ADC_4" pad="A3"/>
@@ -41089,9 +41089,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="U1" pin="PB22" pad="K1"/>
 <connect gate="U1" pin="PB23" pad="K2"/>
 <connect gate="U1" pin="PB26" pad="K5"/>
-<connect gate="U1" pin="PB29" pad="K6"/>
+<connect gate="U1" pin="PB29/AOUTP_R" pad="K6"/>
 <connect gate="U1" pin="PB3/SWD_CLK/ADC_6" pad="B1"/>
-<connect gate="U1" pin="PB31" pad="K7"/>
+<connect gate="U1" pin="PB31/AOUTP_L" pad="K7"/>
 <connect gate="U1" pin="PB4/SPI1_PICO/ADC_0" pad="B2"/>
 <connect gate="U1" pin="PB5/SPI1_POCI/ADC_1" pad="C1"/>
 <connect gate="U1" pin="PB6/SPI1_CLK/ADC_2" pad="C2"/>
@@ -42755,7 +42755,7 @@ Pin Mapping</text>
 <segment>
 <wire x1="40.64" y1="124.46" x2="38.1" y2="124.46" width="0.1524" layer="91"/>
 <label x="38.1" y="124.46" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U1" gate="U1" pin="PA2"/>
+<pinref part="U1" gate="U1" pin="PA2/MIC2_P"/>
 </segment>
 <segment>
 <wire x1="152.4" y1="50.8" x2="149.86" y2="50.8" width="0.1524" layer="91"/>
@@ -42803,7 +42803,7 @@ Pin Mapping</text>
 <segment>
 <wire x1="40.64" y1="121.92" x2="38.1" y2="121.92" width="0.1524" layer="91"/>
 <label x="38.1" y="121.92" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U1" gate="U1" pin="PA4"/>
+<pinref part="U1" gate="U1" pin="PA4/MIC1_P"/>
 </segment>
 <segment>
 <wire x1="152.4" y1="53.34" x2="149.86" y2="53.34" width="0.1524" layer="91"/>
@@ -43031,7 +43031,7 @@ Pin Mapping</text>
 </net>
 <net name="PB29" class="0">
 <segment>
-<pinref part="U1" gate="U1" pin="PB29"/>
+<pinref part="U1" gate="U1" pin="PB29/AOUTP_R"/>
 <wire x1="101.6" y1="96.52" x2="104.14" y2="96.52" width="0.1524" layer="91"/>
 <label x="104.14" y="96.52" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
@@ -43048,7 +43048,7 @@ Pin Mapping</text>
 </net>
 <net name="PB31" class="0">
 <segment>
-<pinref part="U1" gate="U1" pin="PB31"/>
+<pinref part="U1" gate="U1" pin="PB31/AOUTP_L"/>
 <wire x1="101.6" y1="93.98" x2="104.14" y2="93.98" width="0.1524" layer="91"/>
 <label x="104.14" y="93.98" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
