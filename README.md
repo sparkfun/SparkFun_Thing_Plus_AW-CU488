@@ -1,24 +1,24 @@
-SparkFun RealTek AzureWave Thing Plus (AW-CU488)
+SparkFun AzureWave Thing Plus (AW-CU488)
 ========================================
 
-[![SparkFun Part Name](URL for picture of part)](URL for product on Sparkfun.com)
+[![SparkFun AzureWave Thing Plus (AW-CU488)](https://cdn.sparkfun.com/assets/parts/1/9/6/9/2/SparkFun_AzureWave_Thing_Plus_AW-CU488_03.jpg)](https://www.sparkfun.com/products/19957)
 
-[*SparkFun Part Name (DEV-19957)*](https://www.sparkfun.com/products/19957)
+[*SparkFun AzureWave Thing Plus (AW-CU488) (DEV-19957)*](https://www.sparkfun.com/products/19957)
 
-Development board for the AzureWare AW-CU488 Microcontroller with 2.4G/5G Wifi and BLE
+Development board for the AzureWave AW-CU488 Microcontroller with 2.4G/5G Wifi and BLE
 
 Repository Contents
 -------------------
 
-* **/Documentation** - Data sheets, additional product information
+* **/Documentation** - Datasheets, additional product information
 * **/Hardware** - Eagle design files (.brd, .sch)
   * **/Production** - Production panel files (.brd)
 
 Documentation
 --------------
 
-* **Board Definitions**
-* **Hookup Guide** - Basic hookup guide
+* **[Board Definitions](https://github.com/ambiot/ambd_arduino)** - Arduino board support files for the SparkFun AzureWave Thing Plus (AW-CU488)
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/2518)** - Basic hookup guide
 
 Product Versions
 ----------------
